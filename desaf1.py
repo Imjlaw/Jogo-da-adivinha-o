@@ -28,11 +28,11 @@ for rodada in range (1, total_de_tentativas + 1):
     maior = valor_escolhido > numero_secreto
     menor = valor_escolhido < numero_secreto
 
-    if valor_escolhido == numero_secreto:
+    if acertou:
         print('Parabéns você acertou o número secreto!')
         break
     else:
-        if valor_escolhido < numero_secreto:
+        if menor:
             print('O número secreto é maior.')
         else:
             print('O número secreto é menor.')
