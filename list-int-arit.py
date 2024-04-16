@@ -14,4 +14,3 @@ numeros_pares = sum(1 for num in numeros if num % 2 == 0)
 print('Média aritmética:', media)
 print('Maior número:', maior_numero)
 print('Quantidade de números pares:', numeros_pares)
-
